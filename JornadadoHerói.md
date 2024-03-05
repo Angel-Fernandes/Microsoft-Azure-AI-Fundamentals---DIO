@@ -32,39 +32,31 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
     </thead>
     <br>
 
-    <tbody>
-        <tr>
-            <td>2 <br>3</td>
-            <td>Posicao final do heroi: 5</td><br>
-        </tr>
-        
+   
+	2
+	    	Posicao final do heroi: 5
+	3
+                    
 
-        <tr>
-            <td>15 <br>3</td>
-            <td>Posicao final do heroi: 18</td>	
-        </tr>
-        <br>
+	15
+ 		Posicao final do heroi: 18
+	3
+           
+	    
+	10
+     		Posicao final do heroi: 16
+	6
 
-        <tr>
-            <td>10<br>6</td>
-            <td>Posicao final do heroi: 16</td>
-	
-        </tr>
-        <br>
-
-    </tbody>
-</table>
+    
 
 <h1>Resolução</h1>
-//Desafios JavaScript na DIO têm funções "gets" e "print" acessíveis globalmente:
-//- "gets" : lê UMA linha com dado(s) de entrada (inputs) do usuário;
-//- "print": imprime um texto de saída (output), pulando linha.
 
-// Para converter os valores inseridos na entrada, utilizamos a função JavaScript parseInt() que converte a parte inicial da string em um número inteiro.
 const posicaoInicial = parseInt(gets(10));
+
 const totalPassos = parseInt(gets(6));
 
 //TODO: Calcule a posição final do herói:
+
 const posicaoFinal =16;
 
 // Imprime a posição final
