@@ -61,14 +61,21 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 </table>
 
 <h1>Resolução</h1>
-let num1 = parseInt(gets(15));
-let num2 = parseInt(gets(20));
+let nivelMonstro = parseInt(gets(15));
 
-//TODO: Implemente a lógica para exibir o xpGanho:
-const xpGanho = 15*20*100 ;
+let dificuldadeBatalha = parseInt(gets(20));
 
-// Imprime a quantidade de XP ganho
-print("Voce ganhou " + xpGanho + " XP!");
+
+
+// Calcula a quantidade de XP ganhos usando a fórmula num1 * num2 * 100
+
+let xpGanhos = nivelMonstro * dificuldadeBatalha * 100;
+
+
+
+// Imprime a quantidade de XP ganhos após a batalha
+
+console.log("Voce ganhou", xpGanhos, "XP!");
 
 </body>
 </html>
