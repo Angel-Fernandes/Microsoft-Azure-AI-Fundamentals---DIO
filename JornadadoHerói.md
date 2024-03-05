@@ -31,21 +31,31 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
         </tr>
     </thead>
     <br>
+    
+<tbody>
+        <tr>
+            <td>2 <br>3</td>
+            <td>Posicao final do heroi: 5
+</td><br>
+        </tr>
+        
 
-   
-	2
-	    	Posicao final do heroi: 5
-	3
-                    
+ <tr>
+            <td>15 <br>3</td>
+            <td>Posicao final do heroi: 18
+</td>	
+        </tr>
+        <br>
 
-	15
- 		Posicao final do heroi: 18
-	3
-           
-	    
-	10
-     		Posicao final do heroi: 16
-	6
+<tr>
+            <td>10<br>6</td>
+            <td>Posicao final do heroi: 16</td>
+	
+</tr>
+ <br>
+
+</tbody>
+</table>
 
     
 
