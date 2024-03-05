@@ -61,16 +61,31 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 
 <h1>Resolução</h1>
 
-const posicaoInicial = parseInt(gets(10));
+const posicaoInicial = parseInt(gets());
 
-const totalPassos = parseInt(gets(6));
+const totalPassos = parseInt(gets());
+
+
 
 //TODO: Calcule a posição final do herói:
 
-const posicaoFinal =16;
+const posicaoFinal = posicaoInicial + totalPassos ;
 
-// Imprime a posição final
-print("Posicao final do heroi:", posicaoFinal);
+if(posicaoFinal === 5){
+
+ print("Posicao final do heroi:", posicaoFinal);
+
+}else if(posicaoFinal === 18){
+
+ print("Posicao final do heroi:", posicaoFinal);
+
+}else{
+
+ // Imprime a posição final
+
+ print("Posicao final do heroi:", posicaoFinal);
+
+}
 
 </body>
 </html>
